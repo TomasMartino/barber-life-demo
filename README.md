@@ -27,7 +27,7 @@ Landing page demo para **Barber Life Barbería**, ubicada en Beltrán 1510, Godo
 ## Secciones
 
 1. **Header** sticky con nav + CTA Reservar (WhatsApp)
-2. **Hero** dramático con frase, badge de reseñas y 2 CTAs
+2. **Hero** luminoso con frase, badge de reseñas y 2 CTAs
 3. **Servicios** 6 cards con precios
 4. **Por qué elegirnos** 4 puntos diferenciadores
 5. **Galería** 8 fotos + lightbox con flechas y teclado
@@ -36,6 +36,24 @@ Landing page demo para **Barber Life Barbería**, ubicada en Beltrán 1510, Godo
 8. **Instagram** bloque @barber_life10 con grid 4
 9. **Contacto** mapa (Google Maps), dirección, horarios, links
 10. **Footer** con crédito
+
+## Paleta de color
+
+Feedback de la demo anterior: *"muy oscura"*. Rediseño orientado a barbería clásica **clara pero masculina**: fondo crema cálido en vez de negro, solo header y footer en oscuro. IG del local (barber_life10) no permite extraer colores de marca (bloquea scrapers), así que se tomó la dirección clásica del rubro: crema de barbería + verde botella + acento dorado.
+
+| Token | Hex | Uso |
+|-------|-----|-----|
+| `--c-bg` | `#f5f1ea` | Fondo crema base (servicios, galería, testimonios, contacto) |
+| `--c-bg-alt` | `#fbf8f2` | Crema más claro (por qué elegirnos, planes, Instagram) |
+| `--c-bg-card` | `#ffffff` | Cards y plan |
+| `--c-accent` | `#1e3d2f` | Verde botella (botones, borde del plan, links) |
+| `--c-gold` | `#c9a86a` | Dorado (estrellas, icono logo, hover nav) |
+| `--c-gold-deep` | `#a07c36` | Dorado profundo (precios) |
+| `--c-text` | `#1a1a1a` | Texto principal |
+| `--c-text-muted` | `#6b655c` | Texto secundario |
+| `--c-footer` | `#142118` | Verde muy oscuro (header + footer) |
+
+Hero con foto de barbería iluminada + overlay crema suave, título oscuro legible. Fotos oscuras de la galería reemplazadas por tomas más luminosas (Unsplash).
 
 ## Datos importantes
 
