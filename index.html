@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber Life | Barbería en Godoy Cruz, Mendoza</title>
+  <meta name="description" content="Barber Life — Barbería premium en Godoy Cruz, Mendoza. Cortes clásicos, degradés, barba y afeitado con navaja. Reservá tu turno.">
+  <meta name="keywords" content="barbería Godoy Cruz, corte de cabello Mendoza, fade, barba, afeitado navaja, barber Life">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tismartino.github.io/barber-life-demo/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Barber Life | Barbería en Godoy Cruz, Mendoza">
+  <meta property="og:description" content="Corte. Barba. Actitud. Barbería premium en Beltrán 1510, Godoy Cruz.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tismartino.github.io/barber-life-demo/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&auto=format&fit=crop&q=80">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Barber Life | Barbería en Godoy Cruz">
+  <meta name="twitter:description" content="Corte. Barba. Actitud. Reservá tu turno.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&auto=format&fit=crop&q=80">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Barbershop",
+    "name": "Barber Life",
+    "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&auto=format&fit=crop&q=80",
+    "url": "https://tismartino.github.io/barber-life-demo/",
+    "telephone": "+54-9-261-6174842",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Beltrán 1510",
+      "addressLocality": "Godoy Cruz",
+      "addressRegion": "Mendoza",
+      "addressCountry": "AR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -32.908041,
+      "longitude": -68.851624
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "111"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    ],
+    "priceRange": "$$",
+    "sameAs": [
+      "https://www.instagram.com/barber_life10/"
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a href="#" class="header__logo" aria-label="Barber Life — Inicio">
+        <span class="header__logo-icon">✦</span>
+        <span class="header__logo-text">BARBER <strong>LIFE</strong></span>
+      </a>
+      <nav class="header__nav" id="mainNav" aria-label="Navegación principal">
+        <ul class="header__nav-list">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Trabajos</a></li>
+          <li><a href="#testimonios">Opiniones</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="https://wa.me/5492616174842" class="btn btn--primary header__cta" target="_blank" rel="noopener noreferrer">
+        Reservar
+      </a>
+      <button class="header__burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img
+        src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1600&auto=format&fit=crop"
+        alt="Interior de barbería con sillón clásico y ambiente premium"
+        class="hero__bg-img"
+        loading="eager"
+        fetchpriority="high"
+      >
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content container reveal">
+      <h1 class="hero__title">Corte.<br>Barba.<br><span class="text-accent">Actitud.</span></h1>
+      <div class="hero__badge">
+        <span class="hero__badge-location">📍 Godoy Cruz, Mendoza</span>
+        <span class="hero__badge-divider">·</span>
+        <span class="hero__badge-rating">
+          <span class="stars">★★★★★</span> 5.0
+          <span class="hero__badge-reviews">111 reseñas</span>
+        </span>
+      </div>
+      <div class="hero__actions">
+        <a href="https://wa.me/5492616174842" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">
+          Reservar turno
+        </a>
+        <a href="#galeria" class="btn btn--outline btn--lg">
+          Ver trabajos
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section class="section servicios" id="servicios">
+    <div class="container">
+      <h2 class="section__title reveal">Nuestros <span class="text-accent">Servicios</span></h2>
+      <p class="section__subtitle reveal">Estilo y precisión en cada detalle</p>
+      <div class="servicios__grid">
+
+        <article class="card card--servicio reveal" data-delay="0">
+          <div class="card__icon">✂️</div>
+          <h3 class="card__title">Corte Clásico</h3>
+          <p class="card__text">Corte tradicional o moderno, adaptado a tu estilo personal.</p>
+          <p class="card__price">Desde <strong>$8.000</strong></p>
+        </article>
+
+        <article class="card card--servicio reveal" data-delay="80">
+          <div class="card__icon">🔥</div>
+          <h3 class="card__title">Fade / Degradé</h3>
+          <p class="card__text">Degradé perfecto: low, mid o high fade. Precisión milimétrica.</p>
+          <p class="card__price">Desde <strong>$9.000</strong></p>
+        </article>
+
+        <article class="card card--servicio reveal" data-delay="160">
+          <div class="card__icon">🪒</div>
+          <h3 class="card__title">Barba + Perfilado</h3>
+          <p class="card__text">Perfilado con navaja, aceite y toalla caliente para un acabado impecable.</p>
+          <p class="card__price">Desde <strong>$7.000</strong></p>
+        </article>
+
+        <article class="card card--servicio reveal" data-delay="240">
+          <div class="card__icon">💎</div>
+          <h3 class="card__title">Corte + Barba Combo</h3>
+          <p class="card__text">El paquete completo. Corte y barba al mismo turno, con descuento especial.</p>
+          <p class="card__price">Desde <strong>$13.000</strong></p>
+        </article>
+
+        <article class="card card--servicio reveal" data-delay="320">
+          <div class="card__icon">✏️</div>
+          <h3 class="card__title">Diseño Freestyle</h3>
+          <p class="card__text">Líneas, diseños y arte capilar. Mostranos tu idea, lo hacemos realidad.</p>
+          <p class="card__price">Desde <strong>$10.000</strong></p>
+        </article>
+
+        <article class="card card--servicio reveal" data-delay="400">
+          <div class="card__icon">🫧</div>
+          <h3 class="card__title">Afeitado Navaja</h3>
+          <p class="card__text">Afeitado tradicional con navaja, espuma de afeitar y toalla caliente.</p>
+          <p class="card__price">Desde <strong>$6.000</strong></p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POR QUÉ ELEGIRNOS ========== -->
+  <section class="section por-que" id="por-que">
+    <div class="container">
+      <h2 class="section__title reveal">¿Por qué <span class="text-accent">elegirnos</span>?</h2>
+      <div class="por-que__grid">
+
+        <article class="por-que__item reveal" data-delay="0">
+          <span class="por-que__num">01</span>
+          <h3 class="por-que__title">Barberos Expertos</h3>
+          <p class="por-que__text">Nuestro equipo tiene años de experiencia y pasión por el oficio.</p>
+        </article>
+
+        <article class="por-que__item reveal" data-delay="100">
+          <span class="por-que__num">02</span>
+          <h3 class="por-que__title">Navaja Real</h3>
+          <p class="por-que__text">Afeitado tradicional con navaja de acero, no descartable.</p>
+        </article>
+
+        <article class="por-que__item reveal" data-delay="200">
+          <span class="por-que__num">03</span>
+          <h3 class="por-que__title">Ambiente Premium</h3>
+          <p class="por-que__text">Música, café y una experiencia que va más allá del corte.</p>
+        </article>
+
+        <article class="por-que__item reveal" data-delay="300">
+          <span class="por-que__num">04</span>
+          <h3 class="por-que__title">Puntualidad</h3>
+          <p class="por-que__text">Respetamos tu tiempo. Turnos programados, sin esperas.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERÍA ========== -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <h2 class="section__title reveal">Nuestros <span class="text-accent">Trabajos</span></h2>
+      <p class="section__subtitle reveal">Cada corte cuenta una historia</p>
+      <div class="galeria__grid">
+        <figure class="galeria__item reveal" data-delay="0">
+          <img
+            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop"
+            alt="Interior de barbería con sillón de cuero y espejo clásico"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="80">
+          <img
+            src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800&auto=format&fit=crop"
+            alt="Barbero realizando corte de cabello con máquina de precisión"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="160">
+          <img
+            src="https://images.unsplash.com/photo-1521490878406-8237a6a0a5c0?q=80&w=800&auto=format&fit=crop"
+            alt="Fade degradado preciso en corte de cabello masculino"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1521490878406-8237a6a0a5c0?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="240">
+          <img
+            src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=800&auto=format&fit=crop"
+            alt="Navaja de afeitar clásica sobre toalla de barbero"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="320">
+          <img
+            src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=800&auto=format&fit=crop"
+            alt="Hombre con barba bien perfilada en barbería"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="400">
+          <img
+            src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800&auto=format&fit=crop"
+            alt="Detalle de corte masculino con fade bajo"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="480">
+          <img
+            src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop"
+            alt="Accesorios de barbería: cepillo, peine y tijera"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+        <figure class="galeria__item reveal" data-delay="560">
+          <img
+            src="https://images.unsplash.com/photo-1584486483122-af7d49cf2992?q=80&w=800&auto=format&fit=crop"
+            alt="Barbero trabajando con tijera y peine en corte clásico"
+            loading="lazy"
+            width="800"
+            height="600"
+            data-full="https://images.unsplash.com/photo-1584486483122-af7d49cf2992?q=80&w=1600&auto=format&fit=crop"
+          >
+        </figure>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Vista ampliada de imagen" aria-hidden="true">
+      <button class="lightbox__close" aria-label="Cerrar galería">✕</button>
+      <button class="lightbox__prev" aria-label="Imagen anterior">‹</button>
+      <button class="lightbox__next" aria-label="Imagen siguiente">›</button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__img" src="" alt="">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ========== PLANES / COMBO DESTACADO ========== -->
+  <section class="section planes" id="planes">
+    <div class="container">
+      <h2 class="section__title reveal">El Combo <span class="text-accent">Imperdible</span></h2>
+      <div class="planes__wrapper reveal">
+        <div class="plan plan--featured">
+          <div class="plan__badge">Más pedido</div>
+          <h3 class="plan__title">Corte + Barba</h3>
+          <p class="plan__desc">El servicio completo para que salgas renovado. Incluye:</p>
+          <ul class="plan__list">
+            <li>Corte a elección (clásico, fade o moderno)</li>
+            <li>Barba completa + perfilado</li>
+            <li>Toalla caliente</li>
+            <li>Producto de acabado</li>
+          </ul>
+          <p class="plan__price">Desde <strong>$13.000</strong></p>
+          <a href="https://wa.me/5492616174842?text=Hola!%20Quiero%20reservar%20el%20Combo%20Corte%20%2B%20Barba" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">
+            Reservar Combo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIOS ========== -->
+  <section class="section testimonios" id="testimonios">
+    <div class="container">
+      <h2 class="section__title reveal">Lo que dicen <span class="text-accent">nuestros clientes</span></h2>
+      <div class="testimonios__grid">
+
+        <article class="card card--testimonio reveal" data-delay="0">
+          <div class="card__stars">★★★★★</div>
+          <blockquote class="card__quote">"Mejor barbería de Godoy Cruz. Siempre salgo contento. El fade me queda perfecto cada vez."</blockquote>
+          <div class="card__author">
+            <span class="card__author-icon">👤</span>
+            <div>
+              <strong class="card__author-name">Martín G.</strong>
+              <span class="card__author-source">Google Reviews</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--testimonio reveal" data-delay="120">
+          <div class="card__stars">★★★★★</div>
+          <blockquote class="card__quote">"El ambiente es increíble, te sentís en casa. La navaja para la barba es otro nivel."</blockquote>
+          <div class="card__author">
+            <span class="card__author-icon">👤</span>
+            <div>
+              <strong class="card__author-name">Lucas R.</strong>
+              <span class="card__author-source">Google Reviews</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--testimonio reveal" data-delay="240">
+          <div class="card__stars">★★★★★</div>
+          <blockquote class="card__quote">"Llevo un año yendo y nunca me fallaron. Puntuales, pro y con buena onda. 100% recomendado."</blockquote>
+          <div class="card__author">
+            <span class="card__author-icon">👤</span>
+            <div>
+              <strong class="card__author-name">Federico M.</strong>
+              <span class="card__author-source">Google Reviews</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INSTAGRAM ========== -->
+  <section class="section instagram" id="instagram">
+    <div class="container">
+      <h2 class="section__title reveal">Seguinos en <span class="text-accent">Instagram</span></h2>
+      <a href="https://www.instagram.com/barber_life10/" class="section__subtitle instagram__handle reveal" target="_blank" rel="noopener noreferrer">
+        @barber_life10
+      </a>
+      <div class="instagram__grid">
+        <a href="https://www.instagram.com/barber_life10/" class="instagram__item" target="_blank" rel="noopener noreferrer" aria-label="Ver en Instagram">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=400&auto=format&fit=crop" alt="Interior de barbería" loading="lazy" width="400" height="400">
+        </a>
+        <a href="https://www.instagram.com/barber_life10/" class="instagram__item" target="_blank" rel="noopener noreferrer" aria-label="Ver en Instagram">
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=400&auto=format&fit=crop" alt="Corte de cabello en progreso" loading="lazy" width="400" height="400">
+        </a>
+        <a href="https://www.instagram.com/barber_life10/" class="instagram__item" target="_blank" rel="noopener noreferrer" aria-label="Ver en Instagram">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=400&auto=format&fit=crop" alt="Barba perfilada" loading="lazy" width="400" height="400">
+        </a>
+        <a href="https://www.instagram.com/barber_life10/" class="instagram__item" target="_blank" rel="noopener noreferrer" aria-label="Ver en Instagram">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=400&auto=format&fit=crop" alt="Detalle de fade" loading="lazy" width="400" height="400">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="section contacto" id="contacto">
+    <div class="container">
+      <h2 class="section__title reveal">Encontranos</h2>
+      <div class="contacto__grid">
+
+        <div class="contacto__map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.370305140786!2d-68.851624!3d-32.908041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDU0JzI4LjkiTiA2OMKwNTEnMDUuOCJX!5e0!3m2!1ses-419!2sar!4v1"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Barber Life en Google Maps"
+          ></iframe>
+        </div>
+
+        <div class="contacto__info reveal" data-delay="100">
+          <div class="contacto__detail">
+            <span class="contacto__detail-icon">📍</span>
+            <div>
+              <strong>Beltrán 1510</strong><br>
+              Godoy Cruz, Mendoza
+            </div>
+          </div>
+          <div class="contacto__detail">
+            <span class="contacto__detail-icon">🕐</span>
+            <div>
+              <strong>Lunes a Sábado</strong><br>
+              9:00 — 20:00
+            </div>
+          </div>
+          <div class="contacto__detail">
+            <span class="contacto__detail-icon">📞</span>
+            <div>
+              <a href="tel:+5492616174842">0261 617-4842</a>
+            </div>
+          </div>
+          <div class="contacto__detail">
+            <span class="contacto__detail-icon">💬</span>
+            <div>
+              <a href="https://wa.me/5492616174842" target="_blank" rel="noopener noreferrer" data-whatsapp>WhatsApp</a>
+            </div>
+          </div>
+          <div class="contacto__detail">
+            <span class="contacto__detail-icon">📸</span>
+            <div>
+              <a href="https://www.instagram.com/barber_life10/" target="_blank" rel="noopener noreferrer">@barber_life10</a>
+            </div>
+          </div>
+          <a href="https://wa.me/5492616174842" class="btn btn--primary btn--lg btn--full" target="_blank" rel="noopener noreferrer">
+            Reservar turno
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        © 2026 Barber Life — Barbería en Godoy Cruz, Mendoza
+      </p>
+      <p class="footer__credit">
+        Demo creada por <strong>Tomás Martino</strong>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
