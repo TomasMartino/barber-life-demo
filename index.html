@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barber Life | Barbería en Godoy Cruz, Mendoza</title>
-  <meta name="description" content="Barber Life — Barbería premium en Godoy Cruz, Mendoza. Cortes clásicos, degradés, barba y afeitado con navaja. Reservá tu turno.">
+  <meta name="description" content="Barber Life — Salón para hombres en Godoy Cruz, Mendoza. Cortes clásicos, degradés, barba y afeitado con navaja. Reservá tu turno.">
   <meta name="keywords" content="barbería Godoy Cruz, corte de cabello Mendoza, fade, barba, afeitado navaja, barber Life">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://tismartino.github.io/barber-life-demo/">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Barber Life | Barbería en Godoy Cruz, Mendoza">
-  <meta property="og:description" content="Corte. Barba. Actitud. Barbería premium en Beltrán 1510, Godoy Cruz.">
+  <meta property="og:description" content="Salón para hombres. Beltrán 1510, Godoy Cruz.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tismartino.github.io/barber-life-demo/">
   <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&auto=format&fit=crop&q=80">
@@ -20,7 +20,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Barber Life | Barbería en Godoy Cruz">
-  <meta name="twitter:description" content="Corte. Barba. Actitud. Reservá tu turno.">
+  <meta name="twitter:description" content="Salón para hombres. Reservá tu turno.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&auto=format&fit=crop&q=80">
 
   <!-- JSON-LD -->
@@ -52,9 +52,21 @@
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "20:00"
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday"],
+        "opens": "10:30",
+        "closes": "13:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday"],
+        "opens": "17:00",
+        "closes": "21:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday","Saturday"],
+        "opens": "10:30",
+        "closes": "21:30"
       }
     ],
     "priceRange": "$$",
@@ -64,10 +76,10 @@
   }
   </script>
 
-  <!-- Fonts -->
+  <!-- Fonts: Cinzel (headings) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -110,9 +122,12 @@
       <div class="hero__overlay"></div>
     </div>
     <div class="hero__content container reveal">
-      <h1 class="hero__title">Corte.<br>Barba.<br><span class="text-accent">Actitud.</span></h1>
+      <h1 class="hero__title">BARBER<br>LIFE</h1>
+      <p class="hero__subtitle">Salón para hombres · Godoy Cruz</p>
       <div class="hero__badge">
-        <span class="hero__badge-location">📍 Godoy Cruz, Mendoza</span>
+        <span class="hero__badge-salon">Salón para Hombres</span>
+        <span class="hero__badge-divider">·</span>
+        <span class="hero__badge-location">📍 Beltrán 1510, Godoy Cruz</span>
         <span class="hero__badge-divider">·</span>
         <span class="hero__badge-rating">
           <span class="stars">★★★★★</span> 5.0
@@ -131,6 +146,7 @@
   </section>
 
   <!-- ========== SERVICIOS ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section servicios" id="servicios">
     <div class="container">
       <h2 class="section__title reveal">Nuestros <span class="text-accent">Servicios</span></h2>
@@ -184,6 +200,7 @@
   </section>
 
   <!-- ========== POR QUÉ ELEGIRNOS ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section por-que" id="por-que">
     <div class="container">
       <h2 class="section__title reveal">¿Por qué <span class="text-accent">elegirnos</span>?</h2>
@@ -218,6 +235,7 @@
   </section>
 
   <!-- ========== GALERÍA ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section galeria" id="galeria">
     <div class="container">
       <h2 class="section__title reveal">Nuestros <span class="text-accent">Trabajos</span></h2>
@@ -318,6 +336,7 @@
   </section>
 
   <!-- ========== PLANES / COMBO DESTACADO ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section planes" id="planes">
     <div class="container">
       <h2 class="section__title reveal">El Combo <span class="text-accent">Imperdible</span></h2>
@@ -342,6 +361,7 @@
   </section>
 
   <!-- ========== TESTIMONIOS ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section testimonios" id="testimonios">
     <div class="container">
       <h2 class="section__title reveal">Lo que dicen <span class="text-accent">nuestros clientes</span></h2>
@@ -388,6 +408,7 @@
   </section>
 
   <!-- ========== INSTAGRAM ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section instagram" id="instagram">
     <div class="container">
       <h2 class="section__title reveal">Seguinos en <span class="text-accent">Instagram</span></h2>
@@ -412,6 +433,7 @@
   </section>
 
   <!-- ========== CONTACTO ========== -->
+  <div class="divider-gold"><span class="divider-gold__star">★</span></div>
   <section class="section contacto" id="contacto">
     <div class="container">
       <h2 class="section__title reveal">Encontranos</h2>
@@ -441,8 +463,10 @@
           <div class="contacto__detail">
             <span class="contacto__detail-icon">🕐</span>
             <div>
-              <strong>Lunes a Sábado</strong><br>
-              9:00 — 20:00
+              <strong>Horarios</strong><br>
+              Mar, Mié, Jue: 10:30–13:30 / 17:00–21:30<br>
+              Vie y Sáb: 10:30–21:30<br>
+              <span style="color:var(--c-bordo);">Lun y Dom: Cerrado</span>
             </div>
           </div>
           <div class="contacto__detail">
@@ -475,12 +499,18 @@
   <!-- ========== FOOTER ========== -->
   <footer class="footer">
     <div class="container footer__inner">
-      <p class="footer__copy">
-        © 2026 Barber Life — Barbería en Godoy Cruz, Mendoza
-      </p>
-      <p class="footer__credit">
-        Demo creada por <strong>Tomás Martino</strong>
-      </p>
+      <div>
+        <p class="footer__logo">✦ BARBER <strong>LIFE</strong></p>
+        <p class="footer__tagline">Salón para Hombres</p>
+      </div>
+      <div>
+        <p class="footer__copy">
+          © 2026 Barber Life — Godoy Cruz, Mendoza
+        </p>
+        <p class="footer__credit">
+          Demo creada por <strong>Tomás Martino</strong>
+        </p>
+      </div>
     </div>
   </footer>
 
